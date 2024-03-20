@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum PDW</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello!</h1>
+        <img src="download (1).jpeg" alt="Gambar Praktikum">
+        <p>How's your today?</p>
+        <p id="date"></p>
+        <button style="cursor: pointer;" onclick="show()">Great !</button>
+
+        <h3>Today</h3> 
+        <!-- id hasil --> 
+        <div id="hasil"></div> 
+    </div>
+
+<script>
+    let tanggal = new Date();
+    document.getElementById("hasil").innerHTML = tanggal
+</script>
+
+</body>
+</html>
